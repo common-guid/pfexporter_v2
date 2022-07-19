@@ -46,7 +46,8 @@ func main() {
 	}
 }
 func cmdExc() []byte {
-	cmd := exec.Command("sudo", "iftop", "-nbBt", "-s 5")
+	//cmd := exec.Command("sudo", "iftop", "-nbBt", "-s 5")
+	cmd := exec.Command("iftop", "-nbBt", "-s 10")
 
 	stdout, err := cmd.StdoutPipe()
 

@@ -22,7 +22,7 @@ func Init() {
 	prometheus.MustRegister(Ip_addr)
 
 	http.Handle("/metrics", promhttp.Handler())
-	log.Fatal(http.ListenAndServe("0.0.0.0:8080", nil))
+	log.Fatal(http.ListenAndServe("0.0.0.0:8888", nil))
 }
 
 func Display_metrics(dir map[int]string, ip map[int]string, b10s map[int]float64, ip_addr *prometheus.GaugeVec) {
