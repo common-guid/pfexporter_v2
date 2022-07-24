@@ -1,19 +1,9 @@
-combine the functionality implemented in the iftop stdout parser with the channel from systems testing.
+# PfExporter V2
+\n
+same general function as the original pfexporter but gather data from \n
+iftop stdout instead of cron writing to a file\n
+\n
+compiled and tested for freebsd/amd64
 
-Intend to integrate into the old pfexporter
-
-we are getting close. but the cmd is still running...
-
-pipelining
-    https://learning.oreilly.com/library/view/mastering-go/9781838559335/90b3444d-8573-494a-8792-f7065e3487fb.xhtml
-
-    https://gabrieltanner.org/blog/collecting-prometheus-metrics-in-golang/
-
-    https://rsmitty.github.io/Prometheus-Exporters-Revamp/
-
-:: Status ::
-
-
-Notes
 
     
